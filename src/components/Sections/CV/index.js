@@ -3,7 +3,7 @@ import { SectionWrapper, SectionContainer } from '../SectionStyles'
 
 const CV = () => {
     return (
-        <SectionContainer id='cv'>
+        <SectionContainer id='cv' lightBg={true}>
             <SectionWrapper>
                 CV :)
             </SectionWrapper>

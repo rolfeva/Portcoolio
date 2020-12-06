@@ -3,9 +3,9 @@ import {SectionWrapper, SectionContainer } from '../SectionStyles'
 
 const Contact = () => {
     return (
-        <SectionContainer id='contact'>
+        <SectionContainer id='contact' lightBg={false}>
             <SectionWrapper>
-                Contact :)
+                C
             </SectionWrapper>
         </SectionContainer>
     )

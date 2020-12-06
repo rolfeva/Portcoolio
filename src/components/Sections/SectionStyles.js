@@ -2,11 +2,10 @@ import styled from 'styled-components'
 import {Link} from 'react-scroll'
 
 export const SectionContainer = styled.div`
-    background: #dde;
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#f4f4f4')};
 `
-
 export const SectionWrapper = styled.div`
-    height: 860px;
+    min-height: 860px;
     display: grid;
     z-index: 1;
     margin-right: auto;
@@ -17,6 +16,7 @@ export const SectionWrapper = styled.div`
     //background: #aaa;
     @media screen and (max-width: 768px) {
         display: block;
+        padding: 28px 28px;
     }
 `
 

@@ -11,6 +11,9 @@ export const Col1 = styled.div`
     flex: 50%;
     //background-color: blue;
     padding: 0 15px;
+    background-color: green;
+    @media screen and (max-width: 768px) {
+    }
 `
 export const InfoTop = styled.div`
     display: flex;
@@ -26,12 +29,15 @@ export const InfoTopText = styled.div`
     margin-left: 30px;
 `
 export const InfoTopTitle = styled.h2`
+    font-size: 26px;
 `
 export const InfoTopHeader = styled.h1`
     margin-top: 7px;
+    font-size: 34px;
 `
-export const InfoTopDesc = styled.h3`
+export const InfoTopDesc = styled.p`
     margin-top: 15px;
+    font-size: 20px;
 `
 export const InfoBottom = styled.div`
     margin-top: 45px;
@@ -46,11 +52,9 @@ export const ButtonWrap =  styled.div`
 `
 export const Col2 = styled.div`
     flex: 50%;
-    //background-color: maroon;
-    margin-top: -50px;
+    background-color: maroon;
 
     @media screen and (max-width: 768px) {
-        margin-top: 40px;
     }
 `
 export const SpotlightTitle = styled.div`
@@ -84,19 +88,6 @@ export const SpotlightIcon = styled.div`
 `
 export const SpotlightHeader= styled.h1`
     font-size: 16px;
-`
-export const SpotlightList= styled.ul`
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    text-align: left;
-    list-style-type: none;
-    width: 100%;
-`
-export const SpotlightItem = styled.li`
-    margin-top: 5px;
-    margin-left: 10px;
-    display: flex;
 `
 export const SpotlightItemText = styled.p`
     font-size: 14px;
