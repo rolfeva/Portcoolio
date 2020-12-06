@@ -1,0 +1,43 @@
+import styled from 'styled-components'
+import {Link} from 'react-scroll'
+
+export const SectionContainer = styled.div`
+    background: #dde;
+`
+
+export const SectionWrapper = styled.div`
+    height: 860px;
+    display: grid;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 28px;
+    //background: #aaa;
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+`
+
+export const Button = styled(Link)`
+    border-radius: 10px;
+    background: #010606;
+    white-space: nowrap;
+    padding: 12px 30px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    width: 180px;
+    
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #01BF71;
+        white-space: nowrap;
+    }
+`
