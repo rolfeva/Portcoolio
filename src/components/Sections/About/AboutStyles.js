@@ -1,17 +1,27 @@
 import styled from 'styled-components'
 
+export const AboutWrapper = styled.div`
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+`
+export const Title = styled.h1`
+    text-align: center;
+`
 export const Row = styled.div`
+    margin-top: 60px;
     display: flex;
     align-items: center;
+    //TODO: TEMPORARY HACK FOR BANNER FIX
     @media screen and (max-width: 768px) {
         display: block;
     }
 `
 export const Col1 = styled.div`
     flex: 50%;
-    //background-color: blue;
     padding: 0 15px;
-    background-color: green;
+    margin-top: 20px;
+    //background-color: green;
     @media screen and (max-width: 768px) {
     }
 `
@@ -52,7 +62,7 @@ export const ButtonWrap =  styled.div`
 `
 export const Col2 = styled.div`
     flex: 50%;
-    background-color: maroon;
+    //background-color: maroon;
 
     @media screen and (max-width: 768px) {
     }

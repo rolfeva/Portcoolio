@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Link} from 'react-scroll'
 
 export const SectionContainer = styled.div`
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#f4f4f4')};
+    background: ${({lightBg}) => (lightBg ? '#fff' : '#222')};
 `
 export const SectionWrapper = styled.div`
     min-height: 860px;

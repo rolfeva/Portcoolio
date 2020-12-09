@@ -10,8 +10,9 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: red;
-
+    margin-top: -90px;
+    background: ${({scrollNav}) => (scrollNav ? '#111' : 'transparent')};
+    color: #fff;
     @media screen and (max-width: 960px) {
         transition: 0.7s all ease;
     }
