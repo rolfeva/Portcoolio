@@ -9,6 +9,8 @@ import { BsFillCloudFill as Icon3 } from "react-icons/bs";
 import { BsFillGrid1X2Fill as Icon4 } from "react-icons/bs";
 import { BsDownload as DownloadIcon } from "react-icons/bs";
 
+import profilePic from '../../../images/profile.png';
+
 const About = () => {
     return (
         <SectionContainer id='about' lightBg={true}>
@@ -18,7 +20,7 @@ const About = () => {
                     <Row>
                         <Col1>
                             <InfoTop>
-                                <Image src='./images/photo.png' alt='photo'/>
+                                <Image src={profilePic} alt='photo'/>
                                 <InfoTopText>
                                     <InfoTopTitle>Hi, my name is</InfoTopTitle>
                                     <InfoTopHeader>Tobias Granberg</InfoTopHeader>

@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 import {Link} from 'react-scroll'
+import {themeColor} from '../Theme';
 
 export const SectionContainer = styled.div`
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#222')};
+    background: ${({lightBg}) => (lightBg ? '#fff' : themeColor)};
+    color: ${({lightBg}) => (lightBg ? '#000' : '#fff')};
 `
 export const SectionWrapper = styled.div`
     min-height: 860px;
@@ -37,7 +39,7 @@ export const Button = styled(Link)`
     
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #01BF71;
+        background: ${themeColor};
         white-space: nowrap;
     }
 `

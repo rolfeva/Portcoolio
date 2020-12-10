@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {themeColor} from '../../Theme';
 
 export const AboutWrapper = styled.div`
     margin-left: auto;
@@ -32,7 +33,7 @@ export const Image = styled.img`
     flex: 40%;
     border: 1px solid black;
     height: 250px;
-    width: 100%;
+    width: 250px;
 `
 export const InfoTopText = styled.div`
     flex: 60%;
@@ -83,7 +84,8 @@ export const SpotlightGrid = styled.div`
     grid-row-gap: 20px;
 `
 export const Spotlight = styled.div`
-    background-color:#333;
+    background-color:${themeColor};
+    color: white;
     padding:20px;
     border-radius:10px;
     display:flex;
@@ -102,5 +104,6 @@ export const SpotlightHeader= styled.h1`
 export const SpotlightItemText = styled.p`
     font-size: 14px;
     margin-left: 5px;
+    margin-top: 15px;
 `
 

@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 import {Link as LinkS} from 'react-scroll'
 
+import img from '../../../images/banner.jpg'
+import {themeColor} from '../../Theme';
+
 export const HomeWrapper = styled.div`
     width: 100%;
     height: 100vh;
@@ -8,7 +11,9 @@ export const HomeWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #c90;
+    background-image: url(${img});
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
 `
 export const Banner = styled.div`
@@ -27,6 +32,6 @@ export const MobileIcon = styled(LinkS)`
     margin-top: 50px;
     :hover {
         cursor: pointer;
-        color: green;
+        color: ${themeColor};
     }
 `

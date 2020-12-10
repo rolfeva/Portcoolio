@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import {themeColor} from '../../Theme';
+
 export const ContactWrapper = styled.div`
     margin-left: auto;
     margin-right: auto;
@@ -23,12 +25,13 @@ export const Link = styled.a`
     text-decoration: none;
     width: 200px;
     align-items: center;
+    color: ${themeColor};
     
     p {
         font-size: 28px;
         margin-left: 10px;
         :hover {
-            border-bottom: 1px solid #aea;
+            border-bottom: 1px solid ${themeColor};
         }
     }
 `

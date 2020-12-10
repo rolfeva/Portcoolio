@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import {Link as LinkS} from 'react-scroll'
 
+import {themeColor} from '../Theme';
+
 export const Nav = styled.nav`
     display: flex;
     justify-content: center;
@@ -73,7 +75,7 @@ export const NavLink = styled(LinkS)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #01BF71;
+        background: ${themeColor};
         white-space: nowrap;
     }
 
