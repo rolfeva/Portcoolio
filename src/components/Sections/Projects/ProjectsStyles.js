@@ -10,18 +10,18 @@ export const Title = styled.h1`
 `
 export const ProjectGrid = styled.div`
     width: 815px;
-    height: 600px;
+    height: 800px;
     display: grid;
     margin: 50px auto 0 auto;
     grid-template-columns: 400px 400px;
     grid-row: auto auto;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
+    margin-bottom: 100px;
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 400px;
         width: 415px;
         height: 1600px;
-        background-color: red;
     }
 `

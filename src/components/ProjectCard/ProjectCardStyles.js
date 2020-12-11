@@ -37,6 +37,7 @@ export const HighlightWrapper = styled.div`
     height: calc(100% - 90px);
     justify-content: center;
     align-items: center;
+    cursor: default;
 `
 export const Highlight = styled.div`
     width: 600px;
@@ -47,6 +48,11 @@ export const Highlight = styled.div`
     z-index: 5;
     :hover {
         cursor: default;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 75%;
+        height: 85%;
     }
 `
 export const Image = styled.img`

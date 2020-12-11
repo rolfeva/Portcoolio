@@ -10,9 +10,10 @@ export const Title = styled.h1`
     text-align: center;
 `
 export const Row = styled.div`
-    margin-top: 60px;
     display: flex;
     align-items: center;
+    //background-color: yellow;
+    margin-top: 70px;
     //TODO: TEMPORARY HACK FOR BANNER FIX
     @media screen and (max-width: 768px) {
         display: block;
@@ -21,9 +22,11 @@ export const Row = styled.div`
 export const Col1 = styled.div`
     flex: 50%;
     padding: 0 15px;
-    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 35px;
     //background-color: green;
     @media screen and (max-width: 768px) {
+        margin-top: 45px;
     }
 `
 export const InfoTop = styled.div`
@@ -51,7 +54,7 @@ export const InfoTopDesc = styled.p`
     font-size: 20px;
 `
 export const InfoBottom = styled.div`
-    margin-top: 45px;
+    margin-top: 25px;
 `
 export const InfoBottomText = styled.div`
     font-size: 20px;
@@ -63,9 +66,16 @@ export const ButtonWrap =  styled.div`
 `
 export const Col2 = styled.div`
     flex: 50%;
+    padding: 0 15px;
     //background-color: maroon;
-
     @media screen and (max-width: 768px) {
+        margin-top: 45px;
+    }
+`
+export const SpotlightWrapper = styled.div`
+    float: right;
+    @media screen and (max-width: 768px) {
+        float: none;
     }
 `
 export const SpotlightTitle = styled.div`
@@ -74,8 +84,8 @@ export const SpotlightTitle = styled.div`
     margin-bottom: 25px;
 `
 export const SpotlightGrid = styled.div`
-    margin: 0px auto;
-    width: 400px;
+    margin: auto;
+    width: 420px;
     height: 400px;
     display: grid;
     grid-template-columns: 200px 200px;
@@ -96,7 +106,7 @@ export const SpotlightIcon = styled.div`
     height: 60px;
     width: 100%;
     font-size: 50px;
-    color: green;
+    color: #01bf71;
 `
 export const SpotlightHeader= styled.h1`
     font-size: 16px;

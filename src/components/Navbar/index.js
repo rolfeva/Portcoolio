@@ -27,7 +27,6 @@ const Navbar = ({toggle}) => {
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavbarTitleWrapper onClick={toggleHome}>
-                        <NavbarTitleLogo src='' alt='logo' to='/'/>
                         <NavbarTitle>
                             <NavbarTitleH1>Tobias Granberg</NavbarTitleH1>
                             <NavbarTitleH2>System developer</NavbarTitleH2>
