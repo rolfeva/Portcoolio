@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const CardWrapper = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
+    color: #111111;
     padding: 0;
     :hover {
         cursor: pointer;
@@ -19,6 +20,7 @@ export const Showcase = styled.span`
     justify-content: center;
     align-items: center;
     padding: 15px;
+    color: #fff;
     display: ${({clicked}) => (clicked ? 'none' : 'flex')};
 `
 export const ShowcaseTitle = styled.h1`
@@ -62,16 +64,18 @@ export const TextWrapper = styled.div`
     padding: 25px;
     flex: 30%;
     background: #fff;
-    color: #000;
 `
 export const Title = styled.h1`
+    font-size: 34px;
 `
 export const Description = styled.p`
-    margin-top: 5px;
+    margin-top: 20px;
+    font-size: 20px;
 `
 export const Link = styled.a`
     text-decoration: none;
-    color: #000;
+    font-size: 14px;
+    color: #0096cc;
     :hover {
         text-decoration: underline;
     }

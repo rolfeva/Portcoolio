@@ -5,6 +5,7 @@ export const AboutWrapper = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    color: #111111;
 `
 export const Title = styled.h1`
     text-align: center;
@@ -24,9 +25,12 @@ export const Col1 = styled.div`
     padding: 0 15px;
     margin: 0 auto;
     margin-top: 35px;
+    border-right: 1px solid #ddd;
+    padding-right: 70px;
     //background-color: green;
     @media screen and (max-width: 768px) {
         margin-top: 45px;
+        border-right: none;
     }
 `
 export const InfoTop = styled.div`

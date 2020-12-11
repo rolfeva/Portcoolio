@@ -25,8 +25,8 @@ const ProjectCard = ({title, shortDesc, desc, img, alt, hasLink, link}) => {
                         <Image src={img} alt={alt}/>
                         <TextWrapper>
                             <Title>{title}</Title>
-                            <Description>{desc}</Description>
                             <Link href={'https://' + link} target='_blank' aria-label='Projectlink' hasLink={hasLink}>{link}</Link>
+                            <Description>{desc}</Description>
                         </TextWrapper>
                     </Highlight>
                 </HighlightWrapper>

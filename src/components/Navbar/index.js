@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Nav, NavbarContainer, NavbarTitleWrapper, NavbarTitle, 
-    NavbarTitleLogo, NavbarTitleH1, NavbarTitleH2, NavbarMenu, NavbarMenuItem, NavLink} from './NavbarStyles'
+ NavbarTitleH1, NavbarTitleH2, NavbarMenu, NavbarMenuItem, NavLink} from './NavbarStyles'
 import {animateScroll as scroll} from 'react-scroll'
 
 const Navbar = ({toggle}) => {

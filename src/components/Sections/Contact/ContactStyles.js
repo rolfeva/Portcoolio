@@ -6,6 +6,7 @@ export const ContactWrapper = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    color: #111111;
 `
 export const Title = styled.h1`
     text-align: center;

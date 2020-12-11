@@ -13,7 +13,7 @@ export const Nav = styled.nav`
     top: 0;
     z-index: 100;
     margin-top: -90px;
-    background: ${({scrollNav}) => (scrollNav ? '#111' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#111111' : 'transparent')};
     color: #fff;
     @media screen and (max-width: 960px) {
         transition: 0.7s all ease;
@@ -32,8 +32,6 @@ export const NavbarContainer = styled.div`
 export const NavbarTitleWrapper = styled.div`
     display: flex;
     justify-content: space-between;
-`
-export const NavbarTitleLogo = styled.img`
     &:hover {
         cursor: pointer;
     }
