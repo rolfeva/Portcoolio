@@ -1,5 +1,5 @@
 import React from 'react'
-import {SectionContainer, SectionWrapper, Button} from '../SectionStyles'
+import {SectionContainer, SectionWrapper} from '../SectionStyles'
 import {AboutWrapper, Title, Row, Col1, Col2, InfoTop, Image, InfoTopText, InfoTopTitle, InfoTopHeader,
 InfoTopDesc, InfoBottom, SpotlightWrapper, SpotlightTitle, InfoBottomText, ButtonWrap, SpotlightGrid, SpotlightIcon, Spotlight
 , SpotlightHeader, SpotlightItemText} from './AboutStyles'
@@ -7,9 +7,8 @@ import { CgWebsite as WebIcon } from "react-icons/cg";
 import { IoMdApps as SoftwareIcon } from "react-icons/io";
 import { FaMobileAlt as MobileIcon } from "react-icons/fa";
 import { AiOutlineCloud as CloudIcon } from "react-icons/ai";
-import { BsDownload as DownloadIcon } from "react-icons/bs";
 
-import profilePic from '../../../images/profile.png';
+import profilePic from '../../../images/placeholder.png';
 
 const About = () => {
     return (
@@ -36,7 +35,7 @@ const About = () => {
                                     with the goal of solving everyday problems. Download my resume or checkout my projects below.
                                 </InfoBottomText>
                                 <ButtonWrap>
-                                    <Button>Download CV<DownloadIcon/></Button>
+                                    
                                 </ButtonWrap>
                             </InfoBottom>
                         </Col1>
